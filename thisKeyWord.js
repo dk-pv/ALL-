@@ -40,3 +40,30 @@
 
 
                         // Object in "this Keyword"
+
+
+
+// const obj = {
+//     a:10,
+//     get:this   /// this will be also access global obj
+// }
+// console.log(obj.get)
+
+
+
+const person = {
+    name : "sulaiman",
+    age :25,
+    x: function(){
+        console.log(this.name);
+    }
+}
+person.x()
+
+
+const person2 = {
+    name : "Danish",
+    age : 25,
+}
+
+ 
